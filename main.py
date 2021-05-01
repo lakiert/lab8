@@ -55,7 +55,5 @@ df = pd.read_excel(xlsx, header=0)
 # print('-----------------------')
 # czwarty = df[(df['Data zamowienia'].dt.year == 2004)]
 # piaty = df[(df['Data zamowienia'].dt.year == 2005)]
-# print(czwarty)
-# print(piaty)
 # czwarty.to_csv('zamowienia_2004.csv', index=False)
 # piaty.to_csv('zamowienia_2005.csv', index=False)
